@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>e학습터 :: 홈</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+<!-- meta -->
+<meta name="description" content="17개 시도 통합 초,중등 온라인 학습 서비스. 2015개정교육과정 콘텐츠, 평가문항등 제공.">
+<meta name="author" content="KERIS">
+<meta name="keywords" content="e학습터">
+<meta name="subject" content="e학습터">
+<meta name="robots" content="index, follow">
+<meta name="Copyright" content=" ⓒ All Rights Reserved.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="e학습터">
+<meta property="og:description" content="17개 시도 통합 초,중등 온라인 학습 서비스. 2015개정교육과정 콘텐츠, 평가문항등 제공.">
+<meta property="og:image" content="https://content-cdn.edunet.net/images/common/logo.png">
+<meta property="og:uri" content="https://www.e학습터.net">
+<!-- favicon -->
+<link rel="shortcut icon" href="https://content-cdn.edunet.net/images/header/favicon.png" type="image/x-icon"/>
+<style>
+    /* s : base.css */
+    * {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,input,select,textarea,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,button,
+    time, mark, audio, video {padding:0;margin:0;vertical-align:top}
+    html {overflow-y:auto;font-family:'Noto Sans KR','Roboto','맑은 고딕','Malgun Gothic','dotum','Sans-serif';font-weight:100;letter-spacing:-0.25em;color:#666;font-size:16px;line-height:1;letter-spacing:normal;word-break:keep-all}
+    html, body {width:100%;-webkit-text-size-adjust:none;}
+    body{position:relative;min-width:320px;overflow:hidden}
+    ul, ol {list-style-type:none}
+    h1,h2,h3,h4,h5,h6,th{font-weight:300}
+    table{border-collapse:collapse;empty-cells:show;border-spacing:0}
+    img,fieldset{border:0;outline:none}
+    label {cursor:pointer}
+    i, em, address {font-style:normal}
+    caption,legend{visibility:hidden;width:0px;height:0px;font-size:0px;line-height:0px}
+    a, img, input, select, textarea, button, li {transition: all .2s ease}
+
+    /* html5 ie9 else */
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;padding:0;margin:0}
+    strong{font-weight:400}
+    input,select,textarea,button{font-family:'Noto Sans KR','Roboto','맑은 고딕','Malgun Gothic','dotum','Sans-serif';font-weight:300}
+    textarea{resize:none;border:none;background:none}
+
+    a {text-decoration:none;color:#666;cursor:pointer;}
+    a:link, a:visited {text-decoration:none;color:#666;}
+    a:hover, a:focus, a:active{background:none;text-decoration:none;}
+
+    .letter{letter-spacing:normal !important}
+    .under{text-decoration: underline !important}
+    .color_01{color:#c59158 !important}
+    .v_m{vertical-align:middle !important}
+
+    .f_100{font-weight:100}/* Thin */
+    .f_300{font-weight:300}/* light */
+    .f_400{font-weight:400}/* Reguler */
+    .f_500{font-weight:500}/* Medium */
+    .f_700{font-weight:700}/* Bold */
+
+    /* input tag */
+    input[type="text"],
+    input[type="password"],
+    input[type="file"],
+    select{-webkit-appearance:none;-moz-appearance:none;appearance:none;position:relative;height:27px;text-align:left;background:none;border:none;color:#666;line-height:1;outline:none;font-size:13px;border-radius:0}
+    input[type="file"]{line-height:normal;height:auto}
+    textarea{position:relative;width:100%;background:none}
+    select{height:29px;-webkit-appearance:none;-moz-appearance:none;appearance:none;text-indent:0.01px;text-overflow:'';zoom:1}
+    select::-ms-expand{display:none}
+    img{max-width:100%}
+
+    @font-face {font-family:'Noto Sans KR';
+        font-style:normal;/* 폰트 명 */
+        font-weight:100; /* 폰트 스타일 설정 */
+        src:url(/font/common/NotoSans-Regular.eot);/* IE9 호환성 보기 */
+        src:local("?"),
+        url(/font/common/NotoSans-Regular.eot?#iefix) format('embedded-opentype'),
+        url(/font/common/NotoSans-Regular.woff2) format('woff2'),
+        url(/font/common/NotoSans-Regular.woff) format('woff'),
+        url(/font/common/NotoSans-Regular.ttf) format('truetype'),
+        url(/font/common/NotoSans-Regular.svg#KakaoaLt) format('svg');
+    }
+
+    @font-face {font-family:'Noto Sans KR';
+        font-weight:300;
+        src:url(/font/common/NotoSans-Medium.eot);
+        src:local("?"),
+        url(/font/common/NotoSans-Medium.eot?#iefix) format('embedded-opentype'),
+        url(/font/common/NotoSans-Medium.woff2) format('woff2'),
+        url(/font/common/NotoSans-Medium.woff) format('woff'),
+        url(/font/common/NotoSans-Medium.ttf) format('truetype'),
+        url(/font/common/NotoSans-Medium.svg#KakaoaLt) format('svg');
+    }
+
+    @font-face {font-family:'Noto Sans KR';
+        font-weight:500;
+        src:url(/font/common/NotoSans-Bold.eot);
+        src:local("?"),
+        url(/font/common/NotoSans-Bold.eot?#iefix) format('embedded-opentype'),
+        url(/font/common/NotoSans-Bold.woff2) format('woff2'),
+        url(/font/common/NotoSans-Bold.woff) format('woff'),
+        url(/font/common/NotoSans-Bold.ttf) format('truetype'),
+        url(/font/common/NotoSans-Bold.svg#KakaoaLt) format('svg');
+    }
+    /* e : base.css */
+    
+    body.intro {height:900px;min-height:100%;background:#1a1d31 url(/images/intro/bg_intro.jpg);background-size:cover;overflow-y:auto;}
+    #wrap {position:relative;width:100%;height:100%;min-height:100%;}
+    #intro_wrap {position:absolute;top:50%;left:50%;width:1100px;height:550px;margin:-340px 0 0 -550px;text-align:center;}
+    .logo {width:100%;padding:0 10px 30px;text-align:center;overflow:hidden;}
+    .container {position:relative;width:100%;margin:0 auto;text-align:center;}
+    .intro_explain {display:block;color:#f1d13b;font-size:26px;font-weight:500;text-align:center;padding:20px 0 50px;}
+    .intro_list {width:100%;}
+    .intro_list li {float:left;display:block;width:25%;text-align:left;}
+    .intro_list li ul {width:100%;}
+    .intro_list li ul li {clear:both;display:table;width:100%;margin-bottom:22px;text-align:left;}
+    .intro_list li ul li a {position:relative;height:50px;display:table-cell;vertical-align:middle;color:#fff;font-size:20px;line-height:26px;font-weight:300;padding:0 0 0 65px;}
+    .intro_list li ul li a:hover {text-decoration:underline;color:#f1d13b;}
+    .intro_list li ul li a span {position:absolute;left:0;top:0;display:inline-block;width:50px;height:50px;border-radius:50%;padding:0;margin:0 15px 0 0;text-align:center;vertical-align:middle;background-color:#fff;overflow:hidden;}
+    .intro_list li ul li a span img {width:100%;height:100%;vertical-align:middle;}
+    @media only screen and (max-width:1100px){ 
+        #intro_wrap {position:relative;left:0;top:50%;width:100%;height:auto;margin:-275px 0 0;}
+        .container {width:100%;padding:0 20px;}
+    }
+    @media only screen and (min-width:881px) and (max-width:1099px){ 
+        .intro_list li ul li a {height:40px;font-size:18px;padding:0 0 0 50px;}
+        .intro_list li ul li a span {width:40px;height:40px;margin:0 10px 0 0;}
+    }
+    @media only screen and (min-width:791px) and (max-width:880px){
+        .intro_list li ul li a {height:35px;font-size:16px;padding:0 0 0 45px;}
+        .intro_list li ul li a span {width:35px;height:35px;margin:0 10px 0 0;}
+    }
+    @media only screen and (max-width:790px){ 
+        #intro_wrap {left:0;top:0;margin:0;}
+        .logo {padding:20px 0;}
+        .intro_explain {font-size:20px;padding:10px 0 30px;}
+        .intro_list li {width:50%;}
+        .intro_list li ul li a {height:45px;font-size:18px;padding:0 0 0 60px;}
+        .intro_list li ul li a span {width:45px;height:45px;margin:0 10px 0 0;}
+    }
+    @media only screen and (max-width:600px){ 
+        .intro_explain {font-size:20px;padding:10px 0 30px;}
+        .intro_list li ul li {margin-bottom:15px;}
+        .intro_list li ul li a {height:35px;font-size:16px;padding:0 0 0 45px;}
+        .intro_list li ul li a span {width:35px;height:35px;margin:0 10px 0 0;}
+    }
+    @media only screen and (max-width:420px){ 
+        .intro_explain {font-size:16px;padding:10px 0 30px;}
+        .intro_list li {width:100%;}
+    }
+</style>
+</head>
+<body class="intro">
+<div id="wrap">
+    <div id="intro_wrap">
+        <div class="logo"><a href="#none"><img alt="cyber learning system e학습터" src="/images/intro/logo_intro.png"></a></div>
+        <div class="container">
+            <p class="intro_explain">다니고 있는 학교의 지역을 선택 해주세요.</p>
+            <ul class="intro_list">
+                <li>
+                    <ul>
+                        <li><a href="https://cls1.edunet.net"><span><img src="/images/intro/logo_city01.png" alt="서울" /></span>서울지역 초,중학교</a></li>
+                        <li><a href="https://cls2.edunet.net"><span><img src="/images/intro/logo_city02.png" alt="부산" /></span>부산지역 초,중학교</a></li>
+                        <li><a href="https://cls3.edunet.net"><span><img src="/images/intro/logo_city03.png" alt="대구" /></span>대구지역 초,중학교</a></li>
+                        <li><a href="https://cls4.edunet.net"><span><img src="/images/intro/logo_city04.png" alt="인천" /></span>인천지역 초,중학교</a></li>
+                        <li><a href="https://cls5.edunet.net"><span><img src="/images/intro/logo_city05.png" alt="광주" /></span>광주지역 초,중학교</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><a href="https://cls5.edunet.net"><span><img src="/images/intro/logo_city06.png" alt="대전" /></span>대전지역 초,중학교</a></li>
+                        <li><a href="https://cls2.edunet.net"><span><img src="/images/intro/logo_city07.png" alt="울산" /></span>울산지역 초,중학교</a></li>
+                        <li><a href="https://cls10.edunet.net"><span><img src="/images/intro/logo_city08.png" alt="세종" /></span>세종지역 초,중학교</a></li>
+                        <li><a href="#" onclick="clsCheck();"><span><img src="/images/intro/logo_city09.png" alt="경기" /></span>경기지역 초등학교</a></li>
+                        <li><a href="https://cls7.edunet.net"><span><img src="/images/intro/logo_city10.png" alt="경기" /></span>경기지역 중학교</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><a href="https://cls3.edunet.net"><span><img src="/images/intro/logo_city11.png" alt="강원" /></span>강원지역 초,중학교</a></li>
+                        <li><a href="https://cls4.edunet.net"><span><img src="/images/intro/logo_city12.png" alt="충북" /></span>충북지역 초,중학교</a></li>
+                        <li><a href="https://cls10.edunet.net"><span><img src="/images/intro/logo_city13.png" alt="충남" /></span>충남지역 초,중학교</a></li>
+                        <li><a href="https://cls11.edunet.net"><span><img src="/images/intro/logo_city14.png" alt="전북" /></span>전북지역 초,중학교</a></li>
+                        <li><a href="https://cls11.edunet.net"><span><img src="/images/intro/logo_city15.png" alt="전남" /></span>전남지역 초,중학교</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><a href="https://cls9.edunet.net"><span><img src="/images/intro/logo_city16.png" alt="경북" /></span>경북지역 초,중학교</a></li>
+                        <li><a href="https://cls8.edunet.net"><span><img src="/images/intro/logo_city17.png" alt="경남" /></span>경남지역 초,중학교</a></li>
+                        <li><a href="https://cls9.edunet.net"><span><img src="/images/intro/logo_city18.png" alt="제주" /></span>제주지역 초,중학교</a></li>
+                        <li><a href="https://cls7.edunet.net"><span></span>재외한국학교,<br />일반인(학부모) 등</a></li>
+                        <li></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+function clsCheck(){
+	var url = '';
+	
+	var num = Math.floor(Math.random()*3);
+	
+	if(num == 0){
+		url = 'https://cls6.edunet.net';
+	}else if(num == 1){
+		url = 'https://cls7.edunet.net';
+	}else{
+		url = 'https://cls12.edunet.net';
+	}
+	
+	location.href=url+'/cyber/cm/mcom/pmco000z00.do';
+}
+
+</script>
+</body>
+</html>
